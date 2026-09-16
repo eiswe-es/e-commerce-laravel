@@ -31,9 +31,25 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('dashboard') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('shop') }}">
+                    <i class="fas fa-fw fa-store"></i>
+                    <span>Shop</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('cart') }}">
+                    <i class="fas fa-fw fa-shopping-cart"></i>
+                    <span>Cart</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('orders') }}">
+                    <i class="fas fa-fw fa-receipt"></i>
+                    <span>My Orders</span></a>
             </li>
 
             <!-- Divider -->
